@@ -1,11 +1,11 @@
-#Git Basic commands 
+# Git Basic commands 
 
  $ git init
 
  $ git add [file name]
 
 
-##config user
+## Config user
 
  $ git config --global user.name ""
  $ git config --global user.email "" 
@@ -14,31 +14,31 @@
  $ git commit -a (In vi editor enable , press i and add description , press Esc and :wq!)
 
 
-##Create Branch
+## Create Branch
 
  $ git checkout -b [Branch Name]
 
-##Change branch 
+## Change branch 
 
  $ git checkout [Branch Name] 
 
 
-##Merge Branch
+## Merge Branch
 
  $ git merge [Branch Name]
 
 
-##Add Remote URL to local repo
+## Add Remote URL to local repo
 
  git remote add origin [Origin URL]
  
  
-#Clone existing project
+# Clone existing project
 
  $ git clone [Origin URL] [ dir name ]
  
 
-#Fetch branch(s) 
+# Fetch branch(s) 
  
  Fetch single branches
   
@@ -54,7 +54,7 @@ To check existing branches
   
   $ git branch
  
- ##Clone specific branch  on to local
+ ## Clone specific branch  on to local
  
  $ git clone -b[Branch name] [Origin URL] [ dir name ]
  
@@ -62,9 +62,9 @@ To check existing branches
   
   $ git branch
  
-#Git remove 
+# Git remove 
 
-##from local
+## From local
 	
   $ git branch -d [branch name]
   
