@@ -13,6 +13,8 @@
 
  $ git commit -a (In vi editor enable , press i and add description , press Esc and :wq!)
 
+## List all Branches
+git branch -a
 
 ## Create Branch
 
